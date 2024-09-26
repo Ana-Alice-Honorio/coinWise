@@ -58,4 +58,6 @@ npm run build
 ### **Utilitários**
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
-- Ícones: **[heroicons](https://heroicons.com/)**, **[Emoji para copiar](https://emojisparacopiar.com/)**
+- Ícones: **[Emoji para copiar](https://emojisparacopiar.com/)**
+- Cores e estilos: **[Emotion react](https://emotion.sh/docs/@emotion/css)**
+- Paleta de cores: **[Paleta](https://paletadecores.com/paleta/2e8eb0/237d9f/176d8d/0c5c7c/004b6a/)**

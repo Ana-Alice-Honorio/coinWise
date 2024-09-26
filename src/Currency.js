@@ -33,7 +33,7 @@ class CurrencyRate extends Component {
 
     return (
       <div>
-        <h2>Cotações de Moedas</h2>
+        <h2>Cotações de Moedas em tempo real</h2>
         {loading ? (
           <p>Carregando cotações...</p>
         ) : (
