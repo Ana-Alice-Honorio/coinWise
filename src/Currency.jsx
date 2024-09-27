@@ -35,6 +35,7 @@ const cls3 = css`
   }
 `;
 class CurrencyRate extends Component {
+  // Aqui passo as props usadas
   constructor(props) {
     super(props);
     this.state = {
@@ -44,6 +45,7 @@ class CurrencyRate extends Component {
     };
   }
 
+  // chamada da api
   componentDidMount() {
     fetch("https://api.exchangerate-api.com/v4/latest/BRL")
       .then((res) => res.json())
@@ -52,10 +54,12 @@ class CurrencyRate extends Component {
       });
   }
 
+  // atualizo o valor do câmbio
   handleAmountChange = (event) => {
     this.setState({ amountBRL: event.target.value });
   };
 
+  // renderização dos valores
   render() {
     const { rates, loading, amountBRL } = this.state;
 
@@ -65,6 +69,7 @@ class CurrencyRate extends Component {
     const amountInARS = (amountBRL * rates.ARS).toFixed(2);
     const amountInCAD = (amountBRL * rates.CAD).toFixed(2);
 
+    // aqui trago os valores já convertidos
     return (
       <div>
         <h2>Cotações de Moedas em tempo real</h2>

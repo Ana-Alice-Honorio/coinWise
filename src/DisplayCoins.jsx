@@ -12,6 +12,7 @@ const cls3 = css`
   }
 `;
 
+// onde recebo nome e valor da moeda
 class CurrencyDisplay extends React.Component {
   render() {
     const { currencyName, value } = this.props;
