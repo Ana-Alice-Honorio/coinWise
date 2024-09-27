@@ -1,4 +1,16 @@
 import React from "react";
+import { cx, css } from "@emotion/css";
+
+const cls3 = css`
+  display: flex;
+  padding: 4px;
+  flex: 1;
+  margin: 10px;
+
+  @media (max-width: 820px) {
+    width: 100%;
+  }
+`;
 
 class CurrencyDisplay extends React.Component {
   render() {
@@ -6,7 +18,7 @@ class CurrencyDisplay extends React.Component {
 
     return (
       <div>
-        <p>
+        <p className={cx(cls3)}>
           {value} {currencyName}
         </p>
       </div>

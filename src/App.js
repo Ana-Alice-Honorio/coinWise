@@ -11,6 +11,12 @@ const cls1 = css`
   align-items: center;
   flex-direction: column;
   height: 100px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+  }
 `;
 function App() {
   return (

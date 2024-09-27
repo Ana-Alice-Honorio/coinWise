@@ -7,7 +7,7 @@
 ![last commit](https://img.shields.io/github/last-commit/Ana-Alice-Honorio/coinWise?style=for-the-badge")
 ![Feito por Alice](https://img.shields.io/badge/feito-por%20Alice-D818A5")
 
-![coin wise]()
+![coin wise](./public/coin%20wise.png)
 
 ## Sobre o sistema:
 
@@ -46,7 +46,7 @@ npm install
 ### Compilar para desenvolvimento
 
 ```sh
-npm start
+npm run start
 ```
 
 ### Compilar para produção
